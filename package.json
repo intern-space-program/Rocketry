@@ -10,6 +10,7 @@
     "ajv": "6.9.1",
     "animate.css": "3.7.0",
     "classnames": "2.2.6",
+    "dotenv": "^7.0.0",
     "history": "4.7.2",
     "moment": "2.24.0",
     "node-sass": "4.11.0",
