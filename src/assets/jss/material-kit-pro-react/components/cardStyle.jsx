@@ -80,7 +80,7 @@ const cardStyle = {
       left: "0",
       top: "0",
       content: '""',
-      backgroundColor: "rgba(" + hexToRgb(blackColor) + ", 0.56)",
+      // backgroundColor: "rgba(" + hexToRgb(blackColor) + ", 0.56)",
       borderRadius: "6px"
     },
     "& small": {

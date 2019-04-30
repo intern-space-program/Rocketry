@@ -80,7 +80,7 @@ const projectsSection = {
     }
   },
   cardBody4: {
-    paddingTop: "140px",
+    paddingTop: "253px",
     paddingBottom: "140px"
   },
   info4: {
