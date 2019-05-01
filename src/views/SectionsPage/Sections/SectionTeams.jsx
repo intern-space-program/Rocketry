@@ -62,7 +62,7 @@ function SectionTeams({ ...props }) {
             <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="/" onClick={e => e.preventDefault()}>
+                  <a href="www.linkedin.com/in/mateoatwi" onClick={e => e.preventDefault()}>
                     <img src={mateo} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -77,16 +77,6 @@ function SectionTeams({ ...props }) {
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
                   <Button
-                    href="#"
-                    justIcon
-                    simple
-                    color="twitter"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
                     href="www.linkedin.com/in/mateoatwi"
                     justIcon
                     simple
@@ -96,23 +86,13 @@ function SectionTeams({ ...props }) {
                   >
                     <i className="fab fa-linkedin" />
                   </Button>
-                  {/* <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="google"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-google" />
-                  </Button> */}
                 </CardFooter>
               </Card>
             </GridItem>
             <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="https://www.linkedin.com/in/joe-amar" onClick={e => e.preventDefault()}>
                     <img src={joe} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -127,26 +107,6 @@ function SectionTeams({ ...props }) {
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="twitter"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="dribbble"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-dribbble" />
-                  </Button>
                   <Button
                     href="https://www.linkedin.com/in/joe-amar"
                     justIcon
@@ -163,7 +123,7 @@ function SectionTeams({ ...props }) {
             <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="https://www.linkedin.com/in/mikaela-peters-bb2b1281/" onClick={e => e.preventDefault()}>
                     <img src={mikaela} alt="..." />
                   </a>
                 </CardAvatar>
@@ -189,24 +149,24 @@ function SectionTeams({ ...props }) {
                     <i className="fab fa-facebook" />
                   </Button>
                   <Button
+                    href="https://www.linkedin.com/in/mikaela-peters-bb2b1281/"
                     justIcon
                     simple
-                    color="twitter"
-                    href="#"
+                    color="linkedin"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-linkedin" />
                   </Button>
                   <Button
                     justIcon
                     simple
-                    color="dribbble"
+                    color="instagram"
                     href="#"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-instagram" />
                   </Button>
                 </CardFooter>
               </Card>
@@ -214,7 +174,7 @@ function SectionTeams({ ...props }) {
             <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="https://www.linkedin.com/in/reed-villarreal-605022151/" onClick={e => e.preventDefault()}>
                     <img src={reed} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -229,8 +189,8 @@ function SectionTeams({ ...props }) {
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
+                <Button
+                    href="https://www.twitter.com/reedvilla "
                     justIcon
                     simple
                     color="twitter"
@@ -240,24 +200,24 @@ function SectionTeams({ ...props }) {
                     <i className="fab fa-twitter" />
                   </Button>
                   <Button
-                    href="#pablo"
+                    href="https://www.linkedin.com/in/reed-villarreal-605022151/"
                     justIcon
                     simple
-                    color="facebook"
+                    color="linkedin"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-facebook" />
+                    <i className="fab fa-linkedin" />
                   </Button>
                   <Button
-                    href="#pablo"
                     justIcon
                     simple
-                    color="google"
+                    color="instagram"
+                    href="https://www.instagram.com/r.e.e.d"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-google" />
+                    <i className="fab fa-instagram" />
                   </Button>
                 </CardFooter>
               </Card>
@@ -268,7 +228,7 @@ function SectionTeams({ ...props }) {
           <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="https://www.linkedin.com/in/morgannovak/" onClick={e => e.preventDefault()}>
                     <img src={morgan} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -282,28 +242,8 @@ function SectionTeams({ ...props }) {
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="twitter"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="dribbble"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-dribbble" />
-                  </Button>
-                  <Button
-                    href="#pablo"
+                <Button
+                    href="https://www.linkedin.com/in/morgannovak/"
                     justIcon
                     simple
                     color="linkedin"
@@ -312,13 +252,23 @@ function SectionTeams({ ...props }) {
                   >
                     <i className="fab fa-linkedin" />
                   </Button>
+                  <Button
+                    justIcon
+                    simple
+                    color="instagram"
+                    href="https://www.instagram.com/morganthadork"
+                    className={classes.btn}
+                    onClick={e => e.preventDefault()}
+                  >
+                    <i className="fab fa-instagram" />
+                  </Button>
                 </CardFooter>
               </Card>
             </GridItem>
           <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="https://www.linkedin.com/in/briantoliveira/" onClick={e => e.preventDefault()}>
                     <img src={elliot} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -333,25 +283,35 @@ function SectionTeams({ ...props }) {
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
+                <Button
+                    href="https://www.twitter.com/theastrohacker"
                     justIcon
                     simple
-                    color="facebook"
+                    color="twitter"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-facebook" />
+                    <i className="fab fa-twitter" />
                   </Button>
                   <Button
-                    href="#pablo"
+                    href="https://www.linkedin.com/in/briantoliveira"
                     justIcon
                     simple
-                    color="dribbble"
+                    color="linkedin"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-linkedin" />
+                  </Button>
+                  <Button
+                    justIcon
+                    simple
+                    color="instagram"
+                    href="https://www.instagram.com/the_social_hacker"
+                    className={classes.btn}
+                    onClick={e => e.preventDefault()}
+                  >
+                    <i className="fab fa-instagram" />
                   </Button>
                 </CardFooter>
               </Card>
@@ -359,7 +319,7 @@ function SectionTeams({ ...props }) {
             <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="https://www.linkedin.com/in/kathrynrobertson21/" onClick={e => e.preventDefault()}>
                     <img src={kath} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -374,25 +334,15 @@ function SectionTeams({ ...props }) {
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
+                <Button
+                    href="https://www.linkedin.com/in/kathrynrobertson21/"
                     justIcon
                     simple
-                    color="facebook"
+                    color="linkedin"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-facebook" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="dribbble"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-linkedin" />
                   </Button>
                 </CardFooter>
               </Card>
@@ -400,7 +350,7 @@ function SectionTeams({ ...props }) {
             <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="https://www.linkedin.com/in/kolten-knesek-37b3a817a/" onClick={e => e.preventDefault()}>
                     <img src={kolten} alt="..." />
                   </a>
                 </CardAvatar>
@@ -414,35 +364,15 @@ function SectionTeams({ ...props }) {
                   </p>
                 </CardBody>
                 <CardFooter profile plain className={classes.justifyContent}>
-                  <Button
+                <Button
+                    href="https://www.linkedin.com/in/kolten-knesek-37b3a817a/"
                     justIcon
                     simple
-                    color="google"
-                    href="#pablo"
+                    color="linkedin"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-google" />
-                  </Button>
-                  <Button
-                    justIcon
-                    simple
-                    color="twitter"
-                    href="#pablo"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    justIcon
-                    simple
-                    color="dribbble"
-                    href="#pablo"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-linkedin" />
                   </Button>
                 </CardFooter>
               </Card>
@@ -453,7 +383,7 @@ function SectionTeams({ ...props }) {
           <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="/" onClick={e => e.preventDefault()}>
+                  <a href="https://www.linkedin.com/in/michael-boazzo-00b21410a/" onClick={e => e.preventDefault()}>
                     <img src={michael} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -467,18 +397,8 @@ function SectionTeams({ ...props }) {
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#"
-                    justIcon
-                    simple
-                    color="twitter"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    href="www.linkedin.com/in/mateoatwi"
+                <Button
+                    href="https://www.linkedin.com/in/michael-boazzo-00b21410a/"
                     justIcon
                     simple
                     color="linkedin"
@@ -487,23 +407,13 @@ function SectionTeams({ ...props }) {
                   >
                     <i className="fab fa-linkedin" />
                   </Button>
-                  {/* <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="google"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-google" />
-                  </Button> */}
                 </CardFooter>
               </Card>
             </GridItem>
             <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="/" onClick={e => e.preventDefault()}>
                     <img src={shaun} alt="..." />
                   </a>
                 </CardAvatar>
@@ -515,47 +425,17 @@ function SectionTeams({ ...props }) {
                   <p className={classes.description}>
                     Shaun is studing Engineering at Orange Coast College. With his years of experience in solar photovoltaic design, he brings experience in project 
                     management and concept realization to the team.  He is excited to use his education and background to deploy 
-                    successful electronics and procedures as Flight and Launch Operations system lead. Shaun is currently working on wireless communication for the ISS. 
+                    successful electronics and procedures as Flight and Launch Operations system lead. 
                   </p>
                 </CardBody>
                 <CardFooter profile plain className={classes.justifyContent}>
-                  <Button
-                    justIcon
-                    simple
-                    color="google"
-                    href="#pablo"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-google" />
-                  </Button>
-                  <Button
-                    justIcon
-                    simple
-                    color="twitter"
-                    href="#pablo"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    justIcon
-                    simple
-                    color="dribbble"
-                    href="#pablo"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-dribbble" />
-                  </Button>
                 </CardFooter>
               </Card>
             </GridItem>
             <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="https://www.linkedin.com/in/alex-kafer-01614147/" onClick={e => e.preventDefault()}>
                     <img src={alex} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -569,8 +449,8 @@ function SectionTeams({ ...props }) {
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
+                <Button
+                    href="https://www.twitter.com/mealexkafer"
                     justIcon
                     simple
                     color="twitter"
@@ -580,24 +460,24 @@ function SectionTeams({ ...props }) {
                     <i className="fab fa-twitter" />
                   </Button>
                   <Button
-                    href="#pablo"
+                    href="https://www.linkedin.com/in/alex-kafer-01614147/"
                     justIcon
                     simple
-                    color="facebook"
+                    color="linkedin"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-facebook" />
+                    <i className="fab fa-linkedin" />
                   </Button>
                   <Button
-                    href="#pablo"
                     justIcon
                     simple
-                    color="google"
+                    color="instagram"
+                    href="https://www.instagram.com/alexkafer"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-google" />
+                    <i className="fab fa-instagram" />
                   </Button>
                 </CardFooter>
               </Card>
@@ -605,7 +485,7 @@ function SectionTeams({ ...props }) {
             <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="https://www.linkedin.com/in/rafael-gonzalez-097816131/" onClick={e => e.preventDefault()}>
                     <img src={ralph} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -615,32 +495,12 @@ function SectionTeams({ ...props }) {
                     <h6 className={classes.cardCategory}>Airframe Lead</h6>
                   </Muted>
                   <p className={classes.description}>
-                  Rafael is a senior at The Citadel - The Military College of South Carolina, majoring Mechanical Engineering. Rafael is extremely passionate about sports and bodybuilding. 
+                  Rafael is a senior at The Citadel The Military College of South Carolina, majoring Mechanical Engineering. Rafael is extremely passionate about sports and bodybuilding. 
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
                   <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="twitter"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="dribbble"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-dribbble" />
-                  </Button>
-                  <Button
-                    href="#pablo"
+                    href="https://www.linkedin.com/in/rafael-gonzalez-097816131/"
                     justIcon
                     simple
                     color="linkedin"
@@ -658,7 +518,7 @@ function SectionTeams({ ...props }) {
           <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="https://www.linkedin.com/in/lee-cantu-7b2286173/" onClick={e => e.preventDefault()}>
                     <img src={lee} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -673,24 +533,24 @@ function SectionTeams({ ...props }) {
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
                   <Button
-                    href="#pablo"
+                    href="https://www.linkedin.com/in/lee-cantu-7b2286173/"
                     justIcon
                     simple
-                    color="facebook"
+                    color="linkedin"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-facebook" />
+                    <i className="fab fa-linkedin" />
                   </Button>
                   <Button
-                    href="#pablo"
                     justIcon
                     simple
-                    color="dribbble"
+                    color="instagram"
+                    href="https://instagram.com/leebonbon23"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-instagram" />
                   </Button>
                 </CardFooter>
               </Card>
@@ -698,7 +558,7 @@ function SectionTeams({ ...props }) {
           <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="/" onClick={e => e.preventDefault()}>
                     <img src={dani} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -708,37 +568,18 @@ function SectionTeams({ ...props }) {
                     <h6 className={classes.cardCategory}>Airframe & Analyst Lead</h6>
                   </Muted>
                   <p className={classes.description}>
-                  Daniela is originally from Peru. She obtained her bachelor's degree in Mechanical Engineering at Florida International University (FIU). Currently, she is pursuing her Master's in Mechanical Engineering at The Pennsylvania State University. Model Rocketry is one of her hobbies. She also enjoys working on projects that involve programming and likes practicing Karate. 
+                  Daniela is originally from Peru. She obtained her bachelor's degree in Mechanical Engineering at Florida International University (FIU). Currently, she is pursuing her Master's in Mechanical Engineering at The Pennsylvania State University. Model Rocketry is one of her hobbies. 
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="facebook"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-facebook" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="dribbble"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-dribbble" />
-                  </Button>
+                
                 </CardFooter>
               </Card>
             </GridItem>
             <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="https://instagram.com/mandalu30" onClick={e => e.preventDefault()}>
                     <img src={amanda} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -753,25 +594,15 @@ function SectionTeams({ ...props }) {
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
+                <Button
                     justIcon
                     simple
-                    color="facebook"
+                    color="instagram"
+                    href="https://instagram.com/mandalu30"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-facebook" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="dribbble"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-instagram" />
                   </Button>
                 </CardFooter>
               </Card>
@@ -797,8 +628,8 @@ function SectionTeams({ ...props }) {
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
+                <Button
+                    href="https://www.twitter.com/__Novh"
                     justIcon
                     simple
                     color="twitter"
@@ -808,24 +639,14 @@ function SectionTeams({ ...props }) {
                     <i className="fab fa-twitter" />
                   </Button>
                   <Button
-                    href="#pablo"
                     justIcon
                     simple
-                    color="dribbble"
+                    color="instagram"
+                    href="https://www.instagram.com/VasquezNovh"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-dribbble" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="linkedin"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-linkedin" />
+                    <i className="fab fa-instagram" />
                   </Button>
                 </CardFooter>
               </Card>
