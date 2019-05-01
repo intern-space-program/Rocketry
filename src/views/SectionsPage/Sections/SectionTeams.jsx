@@ -30,10 +30,10 @@ import ralph from "assets/img/faces/Ralph.jpg";
 import shaun from "assets/img/faces/Shaun.jpg";
 import lee from "assets/img/faces/Lee.jpg";
 import dani from "assets/img/faces/daniela.jpg";
-import mitch from "assets/img/faces/mitchell.jpg";
+// import mitch from "assets/img/faces/mitchell.jpg";
 import michael from "assets/img/faces/michael.jpeg";
-import mark from "assets/img/faces/Mark.jpg";
-import shaurya from "assets/img/faces/Shaurya.jpeg";
+// import mark from "assets/img/faces/Mark.jpg";
+// import shaurya from "assets/img/faces/Shaurya.jpeg";
 
 function SectionTeams({ ...props }) {
   const { classes, ...rest } = props;
@@ -62,7 +62,7 @@ function SectionTeams({ ...props }) {
             <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#" onClick={e => e.preventDefault()}>
+                  <a href="/" onClick={e => e.preventDefault()}>
                     <img src={mateo} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -453,7 +453,7 @@ function SectionTeams({ ...props }) {
           <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
-                  <a href="#" onClick={e => e.preventDefault()}>
+                  <a href="/" onClick={e => e.preventDefault()}>
                     <img src={michael} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>

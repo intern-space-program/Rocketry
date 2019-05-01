@@ -1,18 +1,18 @@
 import React from "react";
 // react components used to create a google map
-import {
-  withScriptjs,
-  withGoogleMap,
-  GoogleMap,
-  Marker
-} from "react-google-maps";
+// import {
+//   withScriptjs,
+//   withGoogleMap,
+//   GoogleMap,
+//   Marker
+// } from "react-google-maps";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import Checkbox from "@material-ui/core/Checkbox";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 // @material-ui/icons
 import PinDrop from "@material-ui/icons/PinDrop";
-import Phone from "@material-ui/icons/Phone";
+// import Phone from "@material-ui/icons/Phone";
 import Email from "@material-ui/icons/Email";
 import Check from "@material-ui/icons/Check";
 // core components
@@ -30,80 +30,80 @@ import contactsStyle from "assets/jss/material-kit-pro-react/views/sectionsSecti
 
 import city from "assets/img/examples/city.jpg";
 
-const RegularMap = withScriptjs(
-  withGoogleMap(props => (
-    <GoogleMap
-      defaultZoom={14}
-      defaultCenter={{ lat: 44.43353, lng: 26.093928 - 0.025 }}
-      defaultOptions={{
-        scrollwheel: false,
-        zoomControl: true,
-        styles: [
-          {
-            featureType: "water",
-            stylers: [
-              { saturation: 43 },
-              { lightness: -11 },
-              { hue: "#0088ff" }
-            ]
-          },
-          {
-            featureType: "road",
-            elementType: "geometry.fill",
-            stylers: [
-              { hue: "#ff0000" },
-              { saturation: -100 },
-              { lightness: 99 }
-            ]
-          },
-          {
-            featureType: "road",
-            elementType: "geometry.stroke",
-            stylers: [{ color: "#808080" }, { lightness: 54 }]
-          },
-          {
-            featureType: "landscape.man_made",
-            elementType: "geometry.fill",
-            stylers: [{ color: "#ece2d9" }]
-          },
-          {
-            featureType: "poi.park",
-            elementType: "geometry.fill",
-            stylers: [{ color: "#ccdca1" }]
-          },
-          {
-            featureType: "road",
-            elementType: "labels.text.fill",
-            stylers: [{ color: "#767676" }]
-          },
-          {
-            featureType: "road",
-            elementType: "labels.text.stroke",
-            stylers: [{ color: "#ffffff" }]
-          },
-          { featureType: "poi", stylers: [{ visibility: "off" }] },
-          {
-            featureType: "landscape.natural",
-            elementType: "geometry.fill",
-            stylers: [{ visibility: "on" }, { color: "#b8cb93" }]
-          },
-          { featureType: "poi.park", stylers: [{ visibility: "on" }] },
-          {
-            featureType: "poi.sports_complex",
-            stylers: [{ visibility: "on" }]
-          },
-          { featureType: "poi.medical", stylers: [{ visibility: "on" }] },
-          {
-            featureType: "poi.business",
-            stylers: [{ visibility: "simplified" }]
-          }
-        ]
-      }}
-    >
-      <Marker position={{ lat: 44.43353, lng: 26.093928 }} />
-    </GoogleMap>
-  ))
-);
+// const RegularMap = withScriptjs(
+//   withGoogleMap(props => (
+//     <GoogleMap
+//       defaultZoom={14}
+//       defaultCenter={{ lat: 44.43353, lng: 26.093928 - 0.025 }}
+//       defaultOptions={{
+//         scrollwheel: false,
+//         zoomControl: true,
+//         styles: [
+//           {
+//             featureType: "water",
+//             stylers: [
+//               { saturation: 43 },
+//               { lightness: -11 },
+//               { hue: "#0088ff" }
+//             ]
+//           },
+//           {
+//             featureType: "road",
+//             elementType: "geometry.fill",
+//             stylers: [
+//               { hue: "#ff0000" },
+//               { saturation: -100 },
+//               { lightness: 99 }
+//             ]
+//           },
+//           {
+//             featureType: "road",
+//             elementType: "geometry.stroke",
+//             stylers: [{ color: "#808080" }, { lightness: 54 }]
+//           },
+//           {
+//             featureType: "landscape.man_made",
+//             elementType: "geometry.fill",
+//             stylers: [{ color: "#ece2d9" }]
+//           },
+//           {
+//             featureType: "poi.park",
+//             elementType: "geometry.fill",
+//             stylers: [{ color: "#ccdca1" }]
+//           },
+//           {
+//             featureType: "road",
+//             elementType: "labels.text.fill",
+//             stylers: [{ color: "#767676" }]
+//           },
+//           {
+//             featureType: "road",
+//             elementType: "labels.text.stroke",
+//             stylers: [{ color: "#ffffff" }]
+//           },
+//           { featureType: "poi", stylers: [{ visibility: "off" }] },
+//           {
+//             featureType: "landscape.natural",
+//             elementType: "geometry.fill",
+//             stylers: [{ visibility: "on" }, { color: "#b8cb93" }]
+//           },
+//           { featureType: "poi.park", stylers: [{ visibility: "on" }] },
+//           {
+//             featureType: "poi.sports_complex",
+//             stylers: [{ visibility: "on" }]
+//           },
+//           { featureType: "poi.medical", stylers: [{ visibility: "on" }] },
+//           {
+//             featureType: "poi.business",
+//             stylers: [{ visibility: "simplified" }]
+//           }
+//         ]
+//       }}
+//     >
+//       <Marker position={{ lat: 44.43353, lng: 26.093928 }} />
+//     </GoogleMap>
+//   ))
+// );
 
 class SectionContacts extends React.Component {
   constructor(props) {
