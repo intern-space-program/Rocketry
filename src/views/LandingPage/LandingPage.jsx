@@ -91,7 +91,7 @@ class SectionsPage extends React.Component {
               <div className={classes.right}>
                 {/* &copy; {1900 + new Date().getYear()} , made with{" "}
                 <Favorite className={classes.icon} /> by{" "} */}
-                <a href="#">Intern Space Program</a> 
+                <a href="/">Intern Space Program</a> 
               </div>
             </div>
           }
