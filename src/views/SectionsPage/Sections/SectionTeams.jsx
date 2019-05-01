@@ -410,8 +410,7 @@ function SectionTeams({ ...props }) {
                     <h6 className={classes.cardCategory}>Avionics & Payload, Flight & Launch Operations - Software Testing & Development</h6>
                   </Muted>
                   <p className={classes.description}>
-                    And I love you like Kanye loves Kanye. We really need to
-                    restart the human foundation.
+                    Kolten studies ESET at Texas A&M University. Strong and silent cowboy type with traditional values. Kolten loves reparing hardware and soldering.
                   </p>
                 </CardBody>
                 <CardFooter profile plain className={classes.justifyContent}>
@@ -464,7 +463,7 @@ function SectionTeams({ ...props }) {
                     <h6 className={classes.cardCategory}>Safety & Mission Assurance - Integration Analyst</h6>
                   </Muted>
                   <p className={classes.description}>
-                  some description here. 
+                  Michael is studying Aerospace Engineering at the Ohio State University. He is currently working in the Inventory and Stowage Group in the Flight Operations Directorate. Michael works on Stow Track, a new application the astronauts will use to assist them in packing and unpacking items on-board the ISS. 
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
@@ -514,8 +513,7 @@ function SectionTeams({ ...props }) {
                     <h6 className={classes.cardCategory}>Flight & Launch Operations Lead</h6>
                   </Muted>
                   <p className={classes.description}>
-                    And I love you like Kanye loves Kanye. We really need to
-                    restart the human foundation.
+                    Shaun is studing Engineering at Orange Coast College. Shaun is extremelly passionate about Brazillian  Jiu-Jitsu, and he is currently working on wireless communication for the ISS. 
                   </p>
                 </CardBody>
                 <CardFooter profile plain className={classes.justifyContent}>
@@ -552,23 +550,33 @@ function SectionTeams({ ...props }) {
                 </CardFooter>
               </Card>
             </GridItem>
-          <GridItem xs={12} sm={3} md={3}>
+            <GridItem xs={12} sm={3} md={3}>
               <Card profile plain>
                 <CardAvatar profile plain>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
-                    <img src={mitch} alt="..." className={classes.img} />
+                    <img src={alex} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
                 <CardBody>
-                  <h4 className={classes.cardTitle}>Mitchell Gosma</h4>
+                  <h4 className={classes.cardTitle}>Alex Kafer</h4>
                   <Muted>
-                    <h6 className={classes.cardCategory}>Flight & Launch Operations Analyst</h6>
+                    <h6 className={classes.cardCategory}>Graphic Designer</h6>
                   </Muted>
                   <p className={classes.description}>
-                  Something about Mitchell goes here. 
+                  Alex is majoring in Computer Science at the University of Minnesotta. He is a driven and ambitious developer, with interest in autonomous systems. 
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
+                  <Button
+                    href="#pablo"
+                    justIcon
+                    simple
+                    color="twitter"
+                    className={classes.btn}
+                    onClick={e => e.preventDefault()}
+                  >
+                    <i className="fab fa-twitter" />
+                  </Button>
                   <Button
                     href="#pablo"
                     justIcon
@@ -583,11 +591,11 @@ function SectionTeams({ ...props }) {
                     href="#pablo"
                     justIcon
                     simple
-                    color="dribbble"
+                    color="google"
                     className={classes.btn}
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-google" />
                   </Button>
                 </CardFooter>
               </Card>
@@ -605,7 +613,7 @@ function SectionTeams({ ...props }) {
                     <h6 className={classes.cardCategory}>Airframe Lead</h6>
                   </Muted>
                   <p className={classes.description}>
-                  Some description about Ralf here. 
+                  Rafael is a senior at The Citadel - The Military College of South Carolina, majoring Mechanical Engineering. Rafael is extremely passionate about sports and bodybuilding. 
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
@@ -698,7 +706,7 @@ function SectionTeams({ ...props }) {
                     <h6 className={classes.cardCategory}>Airframe & Analyst Lead</h6>
                   </Muted>
                   <p className={classes.description}>
-                  Some description about Daniela 
+                  Daniela is originally from Peru. She obtained her bachelor's degree in Mechanical Engineering at Florida International University (FIU). Currently, she is pursuing her Master's in Mechanical Engineering at The Pennsylvania State University. Model Rocketry is one of her hobbies. She also enjoys working on projects that involve programming and likes practicing Karate. 
                   </p>
                 </CardBody>
                 <CardFooter profile className={classes.justifyContent}>
@@ -770,110 +778,6 @@ function SectionTeams({ ...props }) {
               <Card profile plain>
                 <CardAvatar profile plain>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
-                    <img src={elliot} alt="..." />
-                  </a>
-                </CardAvatar>
-                <CardBody>
-                  <h4 className={classes.cardTitle}>Belinda Chang</h4>
-                  <Muted>
-                    <h6 className={classes.cardCategory}>Recovery Lead</h6>
-                  </Muted>
-                  <p className={classes.description}>
-                    And I love you like Kanye loves Kanye. We really need to
-                    restart the human foundation.
-                  </p>
-                </CardBody>
-                <CardFooter profile plain className={classes.justifyContent}>
-                  <Button
-                    justIcon
-                    simple
-                    color="google"
-                    href="#pablo"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-google" />
-                  </Button>
-                  <Button
-                    justIcon
-                    simple
-                    color="twitter"
-                    href="#pablo"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    justIcon
-                    simple
-                    color="dribbble"
-                    href="#pablo"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-dribbble" />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </GridItem>
-          </GridContainer>
-          {/* ROW 5 */}
-          <GridContainer>
-          <GridItem xs={12} sm={3} md={3}>
-              <Card profile plain>
-                <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    <img src={alex} alt="..." className={classes.img} />
-                  </a>
-                </CardAvatar>
-                <CardBody>
-                  <h4 className={classes.cardTitle}>Alex Kafer</h4>
-                  <Muted>
-                    <h6 className={classes.cardCategory}>Resources</h6>
-                  </Muted>
-                  <p className={classes.description}>
-                  Alex is majoring in Computer Science at the University of Minnesotta. He is a driven and ambitious developer, with interest in autonomous systems. 
-                  </p>
-                </CardBody>
-                <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="twitter"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="facebook"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-facebook" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="google"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-google" />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </GridItem>
-          <GridItem xs={12} sm={3} md={3}>
-              <Card profile plain>
-                <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
                     <img src={noah} alt="..." className={classes.img} />
                   </a>
                 </CardAvatar>
@@ -920,106 +824,6 @@ function SectionTeams({ ...props }) {
                     onClick={e => e.preventDefault()}
                   >
                     <i className="fab fa-linkedin" />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </GridItem>
-            <GridItem xs={12} sm={3} md={3}>
-              <Card profile plain>
-                <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    <img src={mark} alt="..." className={classes.img} />
-                  </a>
-                </CardAvatar>
-                <CardBody>
-                  <h4 className={classes.cardTitle}>Mark Daniel Tredway</h4>
-                  <Muted>
-                    <h6 className={classes.cardCategory}>Propulsion - Analyst</h6>
-                  </Muted>
-                  <p className={classes.description}>
-                  some description. 
-                  </p>
-                </CardBody>
-                <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="twitter"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="dribbble"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-dribbble" />
-                  </Button>
-                  <Button
-                    href="https://www.linkedin.com/in/joe-amar"
-                    justIcon
-                    simple
-                    color="linkedin"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-linkedin" />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </GridItem>
-            <GridItem xs={12} sm={3} md={3}>
-              <Card profile plain>
-                <CardAvatar profile plain>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    <img src={shaurya} alt="..." />
-                  </a>
-                </CardAvatar>
-                <CardBody>
-                  <h4 className={classes.cardTitle}>Shaurya Gupta</h4>
-                  <Muted>
-                    <h6 className={classes.cardCategory}>Airframe</h6>
-                  </Muted>
-                  <p className={classes.description}>
-                  some description here. 
-                  </p>
-                </CardBody>
-                <CardFooter profile plain className={classes.justifyContent}>
-                <Button
-                    href="https://www.facebook.com/mikaela.peters"
-                    justIcon
-                    simple
-                    color="facebook"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-facebook" />
-                  </Button>
-                  <Button
-                    justIcon
-                    simple
-                    color="twitter"
-                    href="#"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    justIcon
-                    simple
-                    color="dribbble"
-                    href="#"
-                    className={classes.btn}
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fab fa-dribbble" />
                   </Button>
                 </CardFooter>
               </Card>

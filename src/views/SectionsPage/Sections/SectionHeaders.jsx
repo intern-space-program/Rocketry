@@ -41,7 +41,7 @@ function SectionHeaders({ ...props }) {
           color="transparent"
           links={
             <div className={classes.collapse}>
-              <List className={classes.list + " " + classes.mlAuto}>
+              {/* <List className={classes.list + " " + classes.mlAuto}>
                 <ListItem className={classes.listItem}>
                   <Button
                     href="/"
@@ -74,7 +74,7 @@ function SectionHeaders({ ...props }) {
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#"
+                    href="/contact"
                     className={classes.navLink}
                     onClick={e => e.preventDefault()}
                     color="transparent"
@@ -114,7 +114,7 @@ function SectionHeaders({ ...props }) {
                     <i className={"fab fa-instagram"} />
                   </Button>
                 </ListItem>
-              </List>
+              </List> */}
             </div>
           }
         />

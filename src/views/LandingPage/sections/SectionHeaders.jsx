@@ -55,7 +55,7 @@ function SectionHeaders({ ...props }) {
                     onClick={e => e.preventDefault()}
                     color="transparent"
                   >
-                    About us
+                    {/* About us */}
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
@@ -70,7 +70,7 @@ function SectionHeaders({ ...props }) {
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#"
+                    href="/contact"
                     className={classes.navLink}
                     onClick={e => e.preventDefault()}
                     color="transparent"
