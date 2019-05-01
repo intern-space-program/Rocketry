@@ -513,7 +513,9 @@ function SectionTeams({ ...props }) {
                     <h6 className={classes.cardCategory}>Flight & Launch Operations Lead</h6>
                   </Muted>
                   <p className={classes.description}>
-                    Shaun is studing Engineering at Orange Coast College. Shaun is extremelly passionate about Brazillian  Jiu-Jitsu, and he is currently working on wireless communication for the ISS. 
+                    Shaun is studing Engineering at Orange Coast College. With his years of experience in solar photovoltaic design, he brings experience in project 
+                    management and concept realization to the team.  He is excited to use his education and background to deploy 
+                    successful electronics and procedures as Flight and Launch Operations system lead. Shaun is currently working on wireless communication for the ISS. 
                   </p>
                 </CardBody>
                 <CardFooter profile plain className={classes.justifyContent}>
