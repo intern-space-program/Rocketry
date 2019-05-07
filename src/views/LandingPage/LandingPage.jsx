@@ -47,9 +47,6 @@ class SectionsPage extends React.Component {
     const { classes } = this.props;
     return (
       <div>
-        {/* <div className={classes.main}>
-          <SectionHeaders id="headers" />
-        </div> */}
         <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionHeaders id="headers" />
           <div className={classes.container}>
@@ -62,39 +59,10 @@ class SectionsPage extends React.Component {
           content={
             <div>
               <div className={classes.left}>
-                {/* <List className={classes.list}>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="#"
-                      className={classes.block}
-                    >
-                      Intern Space Program
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="#"
-                      className={classes.block}
-                    >
-                      About us
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="#"
-                      className={classes.block}
-                    >
-                      Contact us
-                    </a>
-                  </ListItem>
-                </List> */}
+                
               </div>
               <div className={classes.right}>
-                {/* &copy; {1900 + new Date().getYear()} , made with{" "}
-                <Favorite className={classes.icon} /> by{" "} */}
-                {/* <a href="/"> */}
                 Intern Space Program
-                {/* </a>  */}
               </div>
             </div>
           }

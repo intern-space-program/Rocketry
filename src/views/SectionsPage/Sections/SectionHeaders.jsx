@@ -18,19 +18,13 @@ import GridItem from "components/Grid/GridItem.jsx";
 
 import headersStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx";
 
-import bg12 from "assets/img/rocket.jpg";
+import bg12 from "assets/img/team.jpg";
 
-
+// const im1 = {
+//   backgroundPositionY: 0
+// }
 function SectionHeaders({ ...props }) {
   const { classes, ...rest } = props;
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   autoplay: false
-  // };
   return (
     // we've set the className to cd-section so we can make smooth scroll to it
     <div className="cd-section" {...rest}>
@@ -139,11 +133,11 @@ function SectionHeaders({ ...props }) {
         <div
           id="Home"
           className={classes.pageHeader}
-          style={{ backgroundImage: `url("${bg12}")` }}
+          style={{ backgroundPositionY: 0, backgroundImage: `url("${bg12}")` }}
         >
           <div className={classes.container}>
-            <GridContainer>
-              <GridItem xs={12} sm={6} md={6}>
+            <GridContainer wrap="wrap-reverse">
+              <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>Intern Space Program</h1>
                 <h4>
                 The Rocketry Committee (a.k.a the Intern Space Program) is an essential part of the JSC co-tern
@@ -164,11 +158,11 @@ function SectionHeaders({ ...props }) {
                   Watch Now
                 </Button>
               </GridItem>
-              <GridItem xs={12} sm={5} md={5} className={classes.mlAuto}>
+              <GridItem xs={12} sm={12} md={5} className={classes.mlAuto} style={{paddingTop: "100px"}}>
                 <div className={classes.iframeContainer}>
                   <iframe
                     height="250"
-                    src="https://www.youtube.com/embed/IN6QnLpVEPI"
+                    src="https://www.youtube.com/embed/uj3FqkflC7g"
                     frameBorder="0"
                     allow="encrypted-media"
                     allowFullScreen=""
