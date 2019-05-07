@@ -4,8 +4,9 @@ import React from "react";
 
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
-// import List from "@material-ui/core/List";
-// import ListItem from "@material-ui/core/ListItem";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import { HashLink as Link } from 'react-router-hash-link';
 // @material-ui/icons
 
 // core components
@@ -13,6 +14,7 @@ import Header from "components/Header/Header.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
+
 
 import headersStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx";
 
@@ -41,45 +43,61 @@ function SectionHeaders({ ...props }) {
           color="transparent"
           links={
             <div className={classes.collapse}>
-              {/* <List className={classes.list + " " + classes.mlAuto}>
+              <List className={classes.list + " " + classes.mlAuto}>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="/"
+                    href="#Home"
                     className={classes.navLink}
                     onClick={e => e.preventDefault()}
                     color="transparent"
                   >
-                    Home
+                    <Link to="/#Home"
+                    className={classes.navLink}
+                    onClick={e => e.preventDefault()}
+                    color="transparent"
+                    >Home</Link>
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#"
+                    href="#About"
                     className={classes.navLink}
                     onClick={e => e.preventDefault()}
                     color="transparent"
                   >
-                    About us
+                    <Link to="/#About"
+                    className={classes.navLink}
+                    onClick={e => e.preventDefault()}
+                    color="transparent"
+                    >About us</Link>
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#"
+                    href="#Team"
                     className={classes.navLink}
                     onClick={e => e.preventDefault()}
                     color="transparent"
                   >
-                    Team
+                    <Link to="/#Team"
+                    className={classes.navLink}
+                    onClick={e => e.preventDefault()}
+                    color="transparent"
+                    >Team</Link>
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="/contact"
+                    href="#Contact"
                     className={classes.navLink}
                     onClick={e => e.preventDefault()}
                     color="transparent"
                   >
-                    Contact us
+                    <Link to="/#Contact"
+                    className={classes.navLink}
+                    onClick={e => e.preventDefault()}
+                    color="transparent"
+                    >Contact us</Link>
                   </Button>
                 </ListItem>
               </List>
@@ -87,38 +105,39 @@ function SectionHeaders({ ...props }) {
                 <ListItem className={classes.listItem}>
                   <Button
                     color="transparent"
-                    href="https://twitter.com/"
+                    href="https://www.twitch.com/internspaceprogram"
                     target="_blank"
                     className={`${classes.navLink} ${classes.navLinkJustIcon}`}
                   >
-                    <i className={"fab fa-twitter"} />
+                    <i className={"fab fa-twitch"} />
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
                     color="transparent"
-                    href="https://www.facebook.com/"
+                    href="https://www.youtube.com/channel/UCl2WnBoD45lBxIsYjoj-OFA?view_as=subscriber"
                     target="_blank"
                     className={`${classes.navLink} ${classes.navLinkJustIcon}`}
                   >
-                    <i className={"fab fa-facebook"} />
+                    <i className={"fab fa-youtube"} />
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
                     color="transparent"
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/internspaceprogram"
                     target="_blank"
                     className={`${classes.navLink} ${classes.navLinkJustIcon}`}
                   >
                     <i className={"fab fa-instagram"} />
                   </Button>
                 </ListItem>
-              </List> */}
+              </List>
             </div>
           }
         />
         <div
+          id="Home"
           className={classes.pageHeader}
           style={{ backgroundImage: `url("${bg12}")` }}
         >
@@ -137,7 +156,7 @@ function SectionHeaders({ ...props }) {
                 <Button
                   color="danger"
                   size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="https://www.twitch.com/internspaceprogram"
                   target="_blank"
                   rel=""
                 >

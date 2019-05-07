@@ -130,13 +130,13 @@ class SectionContacts extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
-      <div id="contact" className="cd-section" {...rest}>
+      <div className="cd-section" {...rest}>
         {/* Contact us 1 START */}
         <div
           className={`${classes.contacts} ${classes.section}`}
           style={{ backgroundImage: `url(${city})` }}
         >
-          <div className={classes.container}>
+          <div id="Contact" className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={5} md={5}>
                 <h2 className={classes.title}>Get in Touch</h2>
@@ -161,7 +161,7 @@ class SectionContacts extends React.Component {
                   title="Send us an email"
                   description={
                     <span>
-                      <a href="mailto:internspaceprogra@gmail.com">internspaceprogram@gmail.com</a>
+                      <a href="mailto:internspaceprogram@gmail.com">internspaceprogram@gmail.com</a>
                     </span>
                   }
                   icon={Email}

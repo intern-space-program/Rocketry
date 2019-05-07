@@ -27,7 +27,7 @@ function SectionProjects({ ...props }) {
   return (
     <div className="cd-section" {...rest}>
       {/* Project 4 START */}
-      <div className={`${classes.projects} ${classes.projects4}`}>
+      <div id="About" className={`${classes.projects} ${classes.projects4}`}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem
@@ -42,7 +42,7 @@ function SectionProjects({ ...props }) {
                 Let's talk about our team organization
               </h2>
               <h5 className={classes.description}>
-              A structured team hierarchy is recommended to successfully complete the mission in the limited
+              A structured team hierarchy was recommended to successfully complete the mission in the limited
               time of the semester. Structured project management, and sub-teams, helped increase member
               retention, insuring the rocket development stays on schedule, and ultimately lead to a successful
               mission.

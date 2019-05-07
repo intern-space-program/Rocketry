@@ -55,7 +55,7 @@ function SectionHeaders({ ...props }) {
                     onClick={e => e.preventDefault()}
                     color="transparent"
                   >
-                    {/* About us */}
+                    About us
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>

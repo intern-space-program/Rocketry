@@ -40,7 +40,7 @@ function SectionTeams({ ...props }) {
   return (
     <div className="cd-section" {...rest}>
       {/* Team 1 START */}
-      <div className={classes.team}>
+      <div id="Team" className={classes.team}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem
