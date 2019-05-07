@@ -1,15 +1,9 @@
 import React from "react";
-// react components used to create a google map
-// import {
-//   withScriptjs,
-//   withGoogleMap,
-//   GoogleMap,
-//   Marker
-// } from "react-google-maps";
-// @material-ui/core components
+
 import withStyles from "@material-ui/core/styles/withStyles";
 import Checkbox from "@material-ui/core/Checkbox";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
+import Input from '@material-ui/core/Input';
 // @material-ui/icons
 import PinDrop from "@material-ui/icons/PinDrop";
 // import Phone from "@material-ui/icons/Phone";
@@ -23,87 +17,44 @@ import Card from "components/Card/Card.jsx";
 import CardHeader from "components/Card/CardHeader.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import CardFooter from "components/Card/CardFooter.jsx";
-import CustomInput from "components/CustomInput/CustomInput.jsx";
+// import CustomInput from "components/CustomInput/CustomInput.jsx";
 import Button from "components/CustomButtons/Button.jsx";
+
 
 import contactsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/contactsStyle.jsx";
 
 import city from "assets/img/examples/city.jpg";
 
-// const RegularMap = withScriptjs(
-//   withGoogleMap(props => (
-//     <GoogleMap
-//       defaultZoom={14}
-//       defaultCenter={{ lat: 44.43353, lng: 26.093928 - 0.025 }}
-//       defaultOptions={{
-//         scrollwheel: false,
-//         zoomControl: true,
-//         styles: [
-//           {
-//             featureType: "water",
-//             stylers: [
-//               { saturation: 43 },
-//               { lightness: -11 },
-//               { hue: "#0088ff" }
-//             ]
-//           },
-//           {
-//             featureType: "road",
-//             elementType: "geometry.fill",
-//             stylers: [
-//               { hue: "#ff0000" },
-//               { saturation: -100 },
-//               { lightness: 99 }
-//             ]
-//           },
-//           {
-//             featureType: "road",
-//             elementType: "geometry.stroke",
-//             stylers: [{ color: "#808080" }, { lightness: 54 }]
-//           },
-//           {
-//             featureType: "landscape.man_made",
-//             elementType: "geometry.fill",
-//             stylers: [{ color: "#ece2d9" }]
-//           },
-//           {
-//             featureType: "poi.park",
-//             elementType: "geometry.fill",
-//             stylers: [{ color: "#ccdca1" }]
-//           },
-//           {
-//             featureType: "road",
-//             elementType: "labels.text.fill",
-//             stylers: [{ color: "#767676" }]
-//           },
-//           {
-//             featureType: "road",
-//             elementType: "labels.text.stroke",
-//             stylers: [{ color: "#ffffff" }]
-//           },
-//           { featureType: "poi", stylers: [{ visibility: "off" }] },
-//           {
-//             featureType: "landscape.natural",
-//             elementType: "geometry.fill",
-//             stylers: [{ visibility: "on" }, { color: "#b8cb93" }]
-//           },
-//           { featureType: "poi.park", stylers: [{ visibility: "on" }] },
-//           {
-//             featureType: "poi.sports_complex",
-//             stylers: [{ visibility: "on" }]
-//           },
-//           { featureType: "poi.medical", stylers: [{ visibility: "on" }] },
-//           {
-//             featureType: "poi.business",
-//             stylers: [{ visibility: "simplified" }]
-//           }
-//         ]
-//       }}
-//     >
-//       <Marker position={{ lat: 44.43353, lng: 26.093928 }} />
-//     </GoogleMap>
-//   ))
-// );
+
+const divStyle = {
+  paddingTop: '30px',
+  opacity: 1,
+  fontSize: '14px',
+  fontFamily: "Roboto",
+  fontWeight: 400,
+  lineHeight: 1.42857,
+};
+
+const divStyle2 = {
+  paddingTop: '30px',
+  opacity: 1,
+  fontSize: '14px',
+  fontFamily: "Roboto",
+  fontWeight: 400,
+  lineHeight: 1.42857,
+  width: "357px"
+}
+
+const divStyle3 = {
+  paddingTop: '30px',
+  opacity: 1,
+  fontSize: '14px',
+  fontFamily: "Roboto",
+  fontWeight: 400,
+  lineHeight: 1.42857,
+  width: "357px",
+  height: "95px"
+}
 
 class SectionContacts extends React.Component {
   constructor(props) {
@@ -127,6 +78,8 @@ class SectionContacts extends React.Component {
       checked: newChecked
     });
   }
+
+  
   render() {
     const { classes, ...rest } = this.props;
     return (
@@ -169,7 +122,7 @@ class SectionContacts extends React.Component {
               </GridItem>
               <GridItem xs={12} sm={5} md={5} className={classes.mlAuto}>
                 <Card className={classes.card1}>
-                  <form>
+                  <form action="https://formspree.io/internspaceprogram@gmail.com?first_name=first" method="POST">
                     <CardHeader
                       contact
                       color="primary"
@@ -180,17 +133,24 @@ class SectionContacts extends React.Component {
                     <CardBody>
                       <GridContainer>
                         <GridItem xs={12} sm={6} md={6}>
-                          <CustomInput
-                            labelText="First Name"
-                            id="first"
+                        <input type="hidden" name="_subject" value="New submission!" />
+                          <Input
+                            style={divStyle}
+                            type="text" 
+                            name="first_name"
+                            placeholder="First Name"
+                            id="float"
                             formControlProps={{
                               fullWidth: true
                             }}
                           />
                         </GridItem>
                         <GridItem xs={12} sm={6} md={6}>
-                          <CustomInput
-                            labelText="Last Name"
+                          <Input
+                            style={divStyle}
+                            type="text" 
+                            name="last_name"
+                            placeholder="Last Name"
                             id="last"
                             formControlProps={{
                               fullWidth: true
@@ -198,15 +158,21 @@ class SectionContacts extends React.Component {
                           />
                         </GridItem>
                       </GridContainer>
-                      <CustomInput
-                        labelText="Email Address"
+                      <Input
+                        style={divStyle2}
+                        type="email" 
+                        name="email"
+                        placeholder="Email Address"
                         id="email-address"
                         formControlProps={{
                           fullWidth: true
                         }}
                       />
-                      <CustomInput
-                        labelText="Your Message"
+                      <Input
+                        style={divStyle3}
+                        type="text" 
+                        name="message"
+                        placeholder="Your Message"
                         id="message"
                         formControlProps={{
                           fullWidth: true
@@ -236,7 +202,12 @@ class SectionContacts extends React.Component {
                         classes={{ label: classes.label }}
                         label="I'm not a robot"
                       />
-                      <Button color="primary" className={classes.pullRight}>
+                      <Button
+                      color="primary" 
+                      className={classes.pullRight}
+                      type="submit" 
+                      value="Send"
+                      >
                       Send Message
                       </Button>
                     
