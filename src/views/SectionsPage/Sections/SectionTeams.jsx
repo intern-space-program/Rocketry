@@ -20,7 +20,7 @@ import mateo from "assets/img/faces/Mat.jpeg";
 import joe from "assets/img/faces/Joe.jpg";
 import mikaela from "assets/img/faces/Mikaela.jpg";
 import morgan from "assets/img/faces/Morgan.jpg";
-import noah from "assets/img/faces/Noah2.png";
+import noah from "assets/img/faces/noah.jpg";
 import reed from "assets/img/faces/Reed.jpg";
 import kath from "assets/img/faces/Kath.jpg";
 import amanda from "assets/img/faces/Amanda.jpg";
@@ -30,10 +30,8 @@ import ralph from "assets/img/faces/Ralph.jpg";
 import shaun from "assets/img/faces/Shaun.jpg";
 import lee from "assets/img/faces/Lee.jpg";
 import dani from "assets/img/faces/daniela.jpg";
-// import mitch from "assets/img/faces/mitchell.jpg";
 import michael from "assets/img/faces/michael.jpeg";
-// import mark from "assets/img/faces/Mark.jpg";
-// import shaurya from "assets/img/faces/Shaurya.jpeg";
+
 
 function SectionTeams({ ...props }) {
   const { classes, ...rest } = props;
