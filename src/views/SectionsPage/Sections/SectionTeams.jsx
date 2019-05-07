@@ -20,7 +20,7 @@ import mateo from "assets/img/faces/Mat.jpeg";
 import joe from "assets/img/faces/Joe.jpg";
 import mikaela from "assets/img/faces/Mikaela.jpg";
 import morgan from "assets/img/faces/Morgan.jpg";
-import noah from "assets/img/faces/noah.jpg";
+import noah from "assets/img/faces/Noah.jpg";
 import reed from "assets/img/faces/Reed.jpg";
 import kath from "assets/img/faces/Kath.jpg";
 import amanda from "assets/img/faces/Amanda.jpg";
