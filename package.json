@@ -2,7 +2,7 @@
   "name": "rocketry",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://internspaceprogram.com",
+  "homepage": "http://www.internspaceprogram.com",
   "dependencies": {
     "@material-ui/core": "3.9.2",
     "@material-ui/icons": "3.0.2",
@@ -41,7 +41,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build&&gh-pages -d build",
     "lint:check": "eslint . --ext=js,jsx;  exit 0",
     "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
