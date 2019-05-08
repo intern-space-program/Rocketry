@@ -561,7 +561,7 @@ function SectionTeams({ ...props }) {
                   </a>
                 </CardAvatar>
                 <CardBody>
-                  <h4 className={classes.cardTitle}>Daniela Rocca Behar</h4>
+                  <h4 className={classes.cardTitle}>Daniela Rocca Bejar</h4>
                   <Muted>
                     <h6 className={classes.cardCategory}>Airframe & Analyst Lead</h6>
                   </Muted>
