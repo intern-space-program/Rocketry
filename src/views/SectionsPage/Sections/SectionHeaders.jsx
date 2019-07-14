@@ -18,7 +18,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 
 import headersStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx";
 
-import bg12 from "assets/img/team.jpg";
+import bg12 from "assets/img/space.png";
 
 // const im1 = {
 //   backgroundPositionY: 0
@@ -133,18 +133,17 @@ function SectionHeaders({ ...props }) {
         <div
           id="Home"
           className={classes.pageHeader}
-          style={{ backgroundPositionY: 0, backgroundImage: `url("${bg12}")` }}
+          style={{ backgroundSize: "cover", backgroundImage: `url("${bg12}")` , backgroundPosition: "center", backgroundRepeat: "no-repeat"}}
         >
           <div className={classes.container}>
             <GridContainer wrap="wrap-reverse">
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>Intern Space Program</h1>
                 <h4>
-                The Rocketry Committee (a.k.a the Intern Space Program) is an essential part of the JSC co-tern
+                The The Intern Space Program is an essential part of the Johnson Space Center co-tern
                 experience. The purpose of this committee is to provide an environment for co-terns to learn,
                 experiment, and develop new skills, and technology, while working towards the common goal of
-                launching a rocket. This committee offers co-terns the opportunity to develop new skills they might not otherwise
-                develop in their internship.
+                launching a rocket.
                 </h4>
                 <br />
                 <Button
@@ -158,7 +157,7 @@ function SectionHeaders({ ...props }) {
                   Watch Now
                 </Button>
               </GridItem>
-              <GridItem xs={12} sm={12} md={5} className={classes.mlAuto} style={{paddingTop: "100px"}}>
+              {/* <GridItem xs={12} sm={12} md={5} className={classes.mlAuto} style={{paddingTop: "100px"}}>
                 <div className={classes.iframeContainer}>
                   <iframe
                     height="250"
@@ -169,7 +168,7 @@ function SectionHeaders({ ...props }) {
                     title="Rocket live view"
                   />
                 </div>
-              </GridItem>
+              </GridItem> */}
             </GridContainer>
           </div>
         </div>
