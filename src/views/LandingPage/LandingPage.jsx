@@ -13,7 +13,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // sections of this Page
 import SectionHeaders from "../SectionsPage/Sections/SectionHeaders";
 import SectionProject from "../SectionsPage/Sections/SectionProjects";
-// import TeamSection from "../SectionsPage/Sections/SectionTeams";
+import Headers from "../LandingPage/sections/Team";
 import SectionContact from "../SectionsPage/Sections/SectionContacts";
 import Footer from "components/Footer/Footer.jsx";
 import sectionsPageStyle from "assets/jss/material-kit-pro-react/views/sectionsPageStyle.jsx";
@@ -51,7 +51,7 @@ class SectionsPage extends React.Component {
         <SectionHeaders id="headers" />
           <div className={classes.container}>
             <SectionProject />
-            {/* <TeamSection /> */}
+            <Headers />
             <SectionContact />
           </div>
         </div>

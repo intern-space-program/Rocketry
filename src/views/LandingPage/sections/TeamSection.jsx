@@ -4,6 +4,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // import  from "@material-ui/icons/";
 // core components
+import Carousel from "react-slick";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
@@ -18,6 +19,7 @@ import cardProfile2Square from "assets/img/faces/card-profile2-square.jpg";
 import cardProfile4Square from "assets/img/faces/card-profile4-square.jpg";
 import cardProfile6Square from "assets/img/faces/card-profile6-square.jpg";
 
+import carouselStyle from "assets/jss/material-kit-pro-react/views/componentsSections/carouselStyle.jsx";
 import teamsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/teamsStyle.jsx";
 import teamStyle from "assets/jss/material-kit-pro-react/views/landingPageSections/teamStyle.jsx";
 
@@ -33,6 +35,7 @@ class SectionTeam extends React.Component {
   render() {
     const { classes } = this.props;
     return (
+      <Carousel {...settings}>
       <div className={classes.section}>
         <h2 className={classes.title}>Here is our team</h2>
         <div>
@@ -217,6 +220,7 @@ class SectionTeam extends React.Component {
           </GridContainer>
         </div>
       </div>
+      </Carousel>
     );
   }
 }
