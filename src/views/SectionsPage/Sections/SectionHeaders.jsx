@@ -157,18 +157,18 @@ function SectionHeaders({ ...props }) {
                   Watch Now
                 </Button>
               </GridItem>
-              {/* <GridItem xs={12} sm={12} md={5} className={classes.mlAuto} style={{paddingTop: "100px"}}>
+              <GridItem xs={12} sm={12} md={5} className={classes.mlAuto} style={{paddingTop: "100px"}}>
                 <div className={classes.iframeContainer}>
                   <iframe
                     height="250"
-                    src="https://www.youtube.com/embed/uj3FqkflC7g"
+                    src="https://player.twitch.tv/?channel=internspaceprogram"
                     frameBorder="0"
                     allow="encrypted-media"
                     allowFullScreen=""
                     title="Rocket live view"
                   />
                 </div>
-              </GridItem> */}
+              </GridItem>
             </GridContainer>
           </div>
         </div>
